@@ -1,0 +1,11 @@
+python-multipart
+fastapi
+sqlalchemy
+pymysql
+uvicorn
+python-dotenv
+werkzeug
+python-jose
+cryptography
+pandas
+openpyxl
