@@ -7,9 +7,9 @@ class FichaInscripcion(BaseModel):
     id: int
     id_sede: int
     codigo_abonado: int
-    fecha_aprobacion: date
+    fecha_aprobación: datetime
     estado_ficha: str
-    fecha_ingreso: date
-    fecha_insert: date
+    fecha_ingreso: datetime
+    fecha_insert: datetime
     class Config:
         orm_mode = True

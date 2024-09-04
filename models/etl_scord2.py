@@ -8,7 +8,7 @@ class FichaInscripcion(Base):
     id = Column(Integer, primary_key=True, index=True)
     id_sede = Column(Integer)
     codigo_abonado = Column(Integer)
-    fecha_aprobacion = Column(DateTime)
+    fecha_aprobación = Column(DateTime)
     estado_ficha = Column(String(50))
     fecha_ingreso = Column(DateTime)
     fecha_insert = Column(DateTime)
